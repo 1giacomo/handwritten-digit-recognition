@@ -78,3 +78,24 @@ $$
 $$
 db^{[2]} = 1/m*\sum_{}dZ^{[1]}
 $$
+
+### Update parameters
+$$
+W^{[1]} := W^{[1]} - \alpha dbW^{[1]}
+$$
+
+$$
+b^{[1]} := b^{[1]} - \alpha dbb^{[1]}
+$$
+
+$$
+W^{[2]} := W^{[2]} - \alpha dbW^{[2]}
+$$
+
+$$
+b^{[2]} := b^{[2]} - \alpha dbb^{[2]}
+$$
+
+$$
+\alpha = learning \space rate
+$$
